@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
@@ -60,7 +64,7 @@ body {
 
 .hero-button {
     background-color: #3882F6;
-    color: #F9FAF8
+    color: #F9FAF8;
 }
 
 /*-----------------Flavor Section----------------------*/
@@ -123,9 +127,37 @@ body {
     margin: 8% 20%;
     color: #F9FAF8;
     display: flex;
-    padding: 50px 100px;
+    padding: 50px 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
+.cta-copy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cta-heading {
+    font-size: 24px;
+    margin-bottom: -15px;
+}
+
+.cta-button {
+    display: flex;
+    padding: 10px 30px;
+    margin-left: auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    flex-shrink: 0;
+}
+
+/*-----------------Footer Section----------------------*/
+.credits {
+    margin: 40px 20%;
+}
 
 
 img {
@@ -152,7 +184,7 @@ h2 {
 }
 
 button {
-    padding: 8px 16px;
+    padding: 10px 20px;
     font-weight: bold;
     font-size: 18px;
     border-radius: 12px;
@@ -167,4 +199,10 @@ q {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
 }
